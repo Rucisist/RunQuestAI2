@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "BeginRunViewController.h"
+#import "CountdownRunMissionViewController.h"
+@import GoogleMaps;
+@import GooglePlaces;
 
 @interface AppDelegate ()
 
@@ -16,6 +20,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //added Google Maps Kit and Google Places
+    [GMSServices provideAPIKey:@"AIzaSyBacMb-sv6VxaYjoZHJV9D6c4c_iyBhdak"];
+    [GMSPlacesClient provideAPIKey:@"AIzaSyBmz4XmOmeEfJdB8ekR6fk3Z5QrtXK26Fw"];
+    //*****
+    
+    //configure window
+    self.window = [UIWindow new];
+    //BeginRunViewController *rootViewController = [BeginRunViewController new];
+    CountdownRunMissionViewController *rootViewController = [CountdownRunMissionViewController new];
+    
+    
+    self.window.rootViewController = rootViewController;
+    
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }

@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2571F50F076404FF33C9E73A /* libPods-RunQuestAIUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05691F8E0C67F5DC9EF60BFB /* libPods-RunQuestAIUITests.a */; };
+		BF3065D0200BDBAC00F3058E /* BeginRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3065CF200BDBAC00F3058E /* BeginRunViewController.m */; };
+		BF3065D6200C023900F3058E /* Location+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3065D3200C023800F3058E /* Location+CoreDataClass.m */; };
+		BF3065D7200C023900F3058E /* Location+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3065D4200C023800F3058E /* Location+CoreDataProperties.m */; };
+		BF3065E0200C02EB00F3058E /* AILModelForFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3065DF200C02EB00F3058E /* AILModelForFirstController.m */; };
+		BF3065E6200C139A00F3058E /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3065E5200C139A00F3058E /* LocationService.m */; };
+		BF3065E9200C144F00F3058E /* CountdownRunMissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3065E8200C144F00F3058E /* CountdownRunMissionViewController.m */; };
+		BF3065EC200CB4A800F3058E /* RunMissionInProgressTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3065EB200CB4A800F3058E /* RunMissionInProgressTabBarController.m */; };
+		BF3065EF200CB5BB00F3058E /* RunMissionMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3065EE200CB5BB00F3058E /* RunMissionMapViewController.m */; };
+		BF3065F2200CB7FA00F3058E /* RunMissionCharacteristicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3065F1200CB7FA00F3058E /* RunMissionCharacteristicsViewController.m */; };
+		BF3065F4200CF3F500F3058E /* eq6v-MGxOuU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3065F3200CF3F500F3058E /* eq6v-MGxOuU.jpg */; };
+		BF3065F6200CF98900F3058E /* eq6v-MGxOuUmin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BF3065F5200CF98900F3058E /* eq6v-MGxOuUmin.jpg */; };
+		BF3065F9200D3B0700F3058E /* TranslationUnitsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3065F8200D3B0700F3058E /* TranslationUnitsModel.m */; };
+		BF3065FC200D4C1400F3058E /* MulticolorPolylineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3065FB200D4C1400F3058E /* MulticolorPolylineSegment.m */; };
 		BF83EE1B2008B0F3000EBA5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83EE1A2008B0F3000EBA5C /* AppDelegate.m */; };
-		BF83EE1E2008B0F3000EBA5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83EE1D2008B0F3000EBA5C /* ViewController.m */; };
-		BF83EE212008B0F3000EBA5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF83EE1F2008B0F3000EBA5C /* Main.storyboard */; };
 		BF83EE242008B0F3000EBA5C /* RunQuestAI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF83EE222008B0F3000EBA5C /* RunQuestAI.xcdatamodeld */; };
 		BF83EE262008B0F3000EBA5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF83EE252008B0F3000EBA5C /* Assets.xcassets */; };
 		BF83EE292008B0F3000EBA5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF83EE272008B0F3000EBA5C /* LaunchScreen.storyboard */; };
 		BF83EE2C2008B0F3000EBA5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83EE2B2008B0F3000EBA5C /* main.m */; };
 		BF83EE362008B0F3000EBA5C /* RunQuestAITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83EE352008B0F3000EBA5C /* RunQuestAITests.m */; };
 		BF83EE412008B0F3000EBA5C /* RunQuestAIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF83EE402008B0F3000EBA5C /* RunQuestAIUITests.m */; };
+		C82BCEEF8976D05F5394DA73 /* libPods-RunQuestAITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 909BB1A7FBEF79C4DB2A1491 /* libPods-RunQuestAITests.a */; };
+		F40323E5C36EC69FB2C16380 /* libPods-RunQuestAI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB3329CECEDB84AFB247AFE /* libPods-RunQuestAI.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +50,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05691F8E0C67F5DC9EF60BFB /* libPods-RunQuestAIUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RunQuestAIUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43E90E808D27D223DCDA5D0A /* Pods-RunQuestAITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunQuestAITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RunQuestAITests/Pods-RunQuestAITests.release.xcconfig"; sourceTree = "<group>"; };
+		61D7A8DE3924531802539768 /* Pods-RunQuestAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunQuestAI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RunQuestAI/Pods-RunQuestAI.debug.xcconfig"; sourceTree = "<group>"; };
+		72ED9C532FF017944AB14B42 /* Pods-RunQuestAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunQuestAI.release.xcconfig"; path = "Pods/Target Support Files/Pods-RunQuestAI/Pods-RunQuestAI.release.xcconfig"; sourceTree = "<group>"; };
+		909BB1A7FBEF79C4DB2A1491 /* libPods-RunQuestAITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RunQuestAITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB3329CECEDB84AFB247AFE /* libPods-RunQuestAI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RunQuestAI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06C476CA1D0A4169831ED01 /* Pods-RunQuestAIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunQuestAIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RunQuestAIUITests/Pods-RunQuestAIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B880ABE2B79798E47AE25DB4 /* Pods-RunQuestAIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunQuestAIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RunQuestAIUITests/Pods-RunQuestAIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF3065CE200BDBAC00F3058E /* BeginRunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeginRunViewController.h; sourceTree = "<group>"; };
+		BF3065CF200BDBAC00F3058E /* BeginRunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeginRunViewController.m; sourceTree = "<group>"; };
+		BF3065D2200C023700F3058E /* Location+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Location+CoreDataProperties.h"; sourceTree = "<group>"; };
+		BF3065D3200C023800F3058E /* Location+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Location+CoreDataClass.m"; sourceTree = "<group>"; };
+		BF3065D4200C023800F3058E /* Location+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Location+CoreDataProperties.m"; sourceTree = "<group>"; };
+		BF3065D5200C023900F3058E /* Location+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Location+CoreDataClass.h"; sourceTree = "<group>"; };
+		BF3065DE200C02EB00F3058E /* AILModelForFirstController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AILModelForFirstController.h; path = model/AILModelForFirstController.h; sourceTree = "<group>"; };
+		BF3065DF200C02EB00F3058E /* AILModelForFirstController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AILModelForFirstController.m; path = model/AILModelForFirstController.m; sourceTree = "<group>"; };
+		BF3065E1200C09CB00F3058E /* ColorUpdatable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorUpdatable.h; sourceTree = "<group>"; };
+		BF3065E4200C139A00F3058E /* LocationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationService.h; sourceTree = "<group>"; };
+		BF3065E5200C139A00F3058E /* LocationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationService.m; sourceTree = "<group>"; };
+		BF3065E7200C144F00F3058E /* CountdownRunMissionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountdownRunMissionViewController.h; sourceTree = "<group>"; };
+		BF3065E8200C144F00F3058E /* CountdownRunMissionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountdownRunMissionViewController.m; sourceTree = "<group>"; };
+		BF3065EA200CB4A800F3058E /* RunMissionInProgressTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunMissionInProgressTabBarController.h; sourceTree = "<group>"; };
+		BF3065EB200CB4A800F3058E /* RunMissionInProgressTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunMissionInProgressTabBarController.m; sourceTree = "<group>"; };
+		BF3065ED200CB5BB00F3058E /* RunMissionMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunMissionMapViewController.h; sourceTree = "<group>"; };
+		BF3065EE200CB5BB00F3058E /* RunMissionMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunMissionMapViewController.m; sourceTree = "<group>"; };
+		BF3065F0200CB7FA00F3058E /* RunMissionCharacteristicsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunMissionCharacteristicsViewController.h; sourceTree = "<group>"; };
+		BF3065F1200CB7FA00F3058E /* RunMissionCharacteristicsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunMissionCharacteristicsViewController.m; sourceTree = "<group>"; };
+		BF3065F3200CF3F500F3058E /* eq6v-MGxOuU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eq6v-MGxOuU.jpg"; sourceTree = "<group>"; };
+		BF3065F5200CF98900F3058E /* eq6v-MGxOuUmin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "eq6v-MGxOuUmin.jpg"; path = "../../../eq6v-MGxOuUmin.jpg"; sourceTree = "<group>"; };
+		BF3065F7200D3B0700F3058E /* TranslationUnitsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TranslationUnitsModel.h; sourceTree = "<group>"; };
+		BF3065F8200D3B0700F3058E /* TranslationUnitsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TranslationUnitsModel.m; sourceTree = "<group>"; };
+		BF3065FA200D4C1400F3058E /* MulticolorPolylineSegment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MulticolorPolylineSegment.h; sourceTree = "<group>"; };
+		BF3065FB200D4C1400F3058E /* MulticolorPolylineSegment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MulticolorPolylineSegment.m; sourceTree = "<group>"; };
 		BF83EE162008B0F3000EBA5C /* RunQuestAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunQuestAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF83EE192008B0F3000EBA5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF83EE1A2008B0F3000EBA5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF83EE1C2008B0F3000EBA5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BF83EE1D2008B0F3000EBA5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BF83EE202008B0F3000EBA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF83EE232008B0F3000EBA5C /* RunQuestAI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RunQuestAI.xcdatamodel; sourceTree = "<group>"; };
 		BF83EE252008B0F3000EBA5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF83EE282008B0F3000EBA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +97,7 @@
 		BF83EE3C2008B0F3000EBA5C /* RunQuestAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunQuestAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF83EE402008B0F3000EBA5C /* RunQuestAIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunQuestAIUITests.m; sourceTree = "<group>"; };
 		BF83EE422008B0F3000EBA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE88160992FC2299B437EEDB /* Pods-RunQuestAITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunQuestAITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RunQuestAITests/Pods-RunQuestAITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F40323E5C36EC69FB2C16380 /* libPods-RunQuestAI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C82BCEEF8976D05F5394DA73 /* libPods-RunQuestAITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +121,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2571F50F076404FF33C9E73A /* libPods-RunQuestAIUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10080234152BC343C3985FD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FB3329CECEDB84AFB247AFE /* libPods-RunQuestAI.a */,
+				909BB1A7FBEF79C4DB2A1491 /* libPods-RunQuestAITests.a */,
+				05691F8E0C67F5DC9EF60BFB /* libPods-RunQuestAIUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF3065D1200C022300F3058E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BF3065D2200C023700F3058E /* Location+CoreDataProperties.h */,
+				BF3065D5200C023900F3058E /* Location+CoreDataClass.h */,
+				BF3065D3200C023800F3058E /* Location+CoreDataClass.m */,
+				BF3065D4200C023800F3058E /* Location+CoreDataProperties.m */,
+				BF83EE222008B0F3000EBA5C /* RunQuestAI.xcdatamodeld */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		BF83EE0D2008B0F3000EBA5C = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +157,8 @@
 				BF83EE342008B0F3000EBA5C /* RunQuestAITests */,
 				BF83EE3F2008B0F3000EBA5C /* RunQuestAIUITests */,
 				BF83EE172008B0F3000EBA5C /* Products */,
+				DE7373A0BFE0DD99B1C02091 /* Pods */,
+				10080234152BC343C3985FD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,14 +177,32 @@
 			children = (
 				BF83EE192008B0F3000EBA5C /* AppDelegate.h */,
 				BF83EE1A2008B0F3000EBA5C /* AppDelegate.m */,
-				BF83EE1C2008B0F3000EBA5C /* ViewController.h */,
-				BF83EE1D2008B0F3000EBA5C /* ViewController.m */,
-				BF83EE1F2008B0F3000EBA5C /* Main.storyboard */,
+				BF3065CE200BDBAC00F3058E /* BeginRunViewController.h */,
+				BF3065CF200BDBAC00F3058E /* BeginRunViewController.m */,
+				BF3065ED200CB5BB00F3058E /* RunMissionMapViewController.h */,
+				BF3065EE200CB5BB00F3058E /* RunMissionMapViewController.m */,
+				BF3065E7200C144F00F3058E /* CountdownRunMissionViewController.h */,
+				BF3065E8200C144F00F3058E /* CountdownRunMissionViewController.m */,
+				BF3065EA200CB4A800F3058E /* RunMissionInProgressTabBarController.h */,
+				BF3065EB200CB4A800F3058E /* RunMissionInProgressTabBarController.m */,
+				BF3065F0200CB7FA00F3058E /* RunMissionCharacteristicsViewController.h */,
+				BF3065F1200CB7FA00F3058E /* RunMissionCharacteristicsViewController.m */,
+				BF3065F7200D3B0700F3058E /* TranslationUnitsModel.h */,
+				BF3065F8200D3B0700F3058E /* TranslationUnitsModel.m */,
+				BF3065FA200D4C1400F3058E /* MulticolorPolylineSegment.h */,
+				BF3065FB200D4C1400F3058E /* MulticolorPolylineSegment.m */,
+				BF3065E4200C139A00F3058E /* LocationService.h */,
+				BF3065E5200C139A00F3058E /* LocationService.m */,
+				BF3065E1200C09CB00F3058E /* ColorUpdatable.h */,
+				BF3065DE200C02EB00F3058E /* AILModelForFirstController.h */,
+				BF3065DF200C02EB00F3058E /* AILModelForFirstController.m */,
 				BF83EE252008B0F3000EBA5C /* Assets.xcassets */,
+				BF3065F3200CF3F500F3058E /* eq6v-MGxOuU.jpg */,
+				BF3065F5200CF98900F3058E /* eq6v-MGxOuUmin.jpg */,
 				BF83EE272008B0F3000EBA5C /* LaunchScreen.storyboard */,
 				BF83EE2A2008B0F3000EBA5C /* Info.plist */,
 				BF83EE2B2008B0F3000EBA5C /* main.m */,
-				BF83EE222008B0F3000EBA5C /* RunQuestAI.xcdatamodeld */,
+				BF3065D1200C022300F3058E /* model */,
 			);
 			path = RunQuestAI;
 			sourceTree = "<group>";
@@ -135,6 +225,19 @@
 			path = RunQuestAIUITests;
 			sourceTree = "<group>";
 		};
+		DE7373A0BFE0DD99B1C02091 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61D7A8DE3924531802539768 /* Pods-RunQuestAI.debug.xcconfig */,
+				72ED9C532FF017944AB14B42 /* Pods-RunQuestAI.release.xcconfig */,
+				DE88160992FC2299B437EEDB /* Pods-RunQuestAITests.debug.xcconfig */,
+				43E90E808D27D223DCDA5D0A /* Pods-RunQuestAITests.release.xcconfig */,
+				B880ABE2B79798E47AE25DB4 /* Pods-RunQuestAIUITests.debug.xcconfig */,
+				B06C476CA1D0A4169831ED01 /* Pods-RunQuestAIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF83EE452008B0F3000EBA5C /* Build configuration list for PBXNativeTarget "RunQuestAI" */;
 			buildPhases = (
+				56FD0B9403FC38A221D6B950 /* [CP] Check Pods Manifest.lock */,
 				BF83EE122008B0F3000EBA5C /* Sources */,
 				BF83EE132008B0F3000EBA5C /* Frameworks */,
 				BF83EE142008B0F3000EBA5C /* Resources */,
+				4B304ABBB5D63DF498A0D45C /* [CP] Embed Pods Frameworks */,
+				1791D690011AFD8087AC3C59 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF83EE482008B0F3000EBA5C /* Build configuration list for PBXNativeTarget "RunQuestAITests" */;
 			buildPhases = (
+				BBDA168D692CB9FA40310EB1 /* [CP] Check Pods Manifest.lock */,
 				BF83EE2D2008B0F3000EBA5C /* Sources */,
 				BF83EE2E2008B0F3000EBA5C /* Frameworks */,
 				BF83EE2F2008B0F3000EBA5C /* Resources */,
+				E83A3C8989C409851581CA61 /* [CP] Embed Pods Frameworks */,
+				5468839A3D427AC8C39D5892 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF83EE4B2008B0F3000EBA5C /* Build configuration list for PBXNativeTarget "RunQuestAIUITests" */;
 			buildPhases = (
+				57FD2D2194A7918E6D6B9A1D /* [CP] Check Pods Manifest.lock */,
 				BF83EE382008B0F3000EBA5C /* Sources */,
 				BF83EE392008B0F3000EBA5C /* Frameworks */,
 				BF83EE3A2008B0F3000EBA5C /* Resources */,
+				BBDBA5F54DEC83C6B6948CBB /* [CP] Embed Pods Frameworks */,
+				4E87F6E8EBE8908D794866B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,6 +315,14 @@
 					BF83EE152008B0F3000EBA5C = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					BF83EE302008B0F3000EBA5C = {
 						CreatedOnToolsVersion = 9.2;
@@ -243,7 +363,8 @@
 			files = (
 				BF83EE292008B0F3000EBA5C /* LaunchScreen.storyboard in Resources */,
 				BF83EE262008B0F3000EBA5C /* Assets.xcassets in Resources */,
-				BF83EE212008B0F3000EBA5C /* Main.storyboard in Resources */,
+				BF3065F6200CF98900F3058E /* eq6v-MGxOuUmin.jpg in Resources */,
+				BF3065F4200CF3F500F3058E /* eq6v-MGxOuU.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,15 +384,176 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1791D690011AFD8087AC3C59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RunQuestAI/Pods-RunQuestAI-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RunQuestAI/Pods-RunQuestAI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B304ABBB5D63DF498A0D45C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RunQuestAI/Pods-RunQuestAI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E87F6E8EBE8908D794866B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RunQuestAIUITests/Pods-RunQuestAIUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5468839A3D427AC8C39D5892 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RunQuestAITests/Pods-RunQuestAITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56FD0B9403FC38A221D6B950 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RunQuestAI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57FD2D2194A7918E6D6B9A1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RunQuestAIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBDA168D692CB9FA40310EB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RunQuestAITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBDBA5F54DEC83C6B6948CBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RunQuestAIUITests/Pods-RunQuestAIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E83A3C8989C409851581CA61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RunQuestAITests/Pods-RunQuestAITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF83EE122008B0F3000EBA5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF83EE1E2008B0F3000EBA5C /* ViewController.m in Sources */,
+				BF3065D7200C023900F3058E /* Location+CoreDataProperties.m in Sources */,
+				BF3065EF200CB5BB00F3058E /* RunMissionMapViewController.m in Sources */,
+				BF3065F2200CB7FA00F3058E /* RunMissionCharacteristicsViewController.m in Sources */,
+				BF3065D0200BDBAC00F3058E /* BeginRunViewController.m in Sources */,
+				BF3065F9200D3B0700F3058E /* TranslationUnitsModel.m in Sources */,
+				BF3065E0200C02EB00F3058E /* AILModelForFirstController.m in Sources */,
+				BF3065E9200C144F00F3058E /* CountdownRunMissionViewController.m in Sources */,
 				BF83EE242008B0F3000EBA5C /* RunQuestAI.xcdatamodeld in Sources */,
 				BF83EE2C2008B0F3000EBA5C /* main.m in Sources */,
+				BF3065FC200D4C1400F3058E /* MulticolorPolylineSegment.m in Sources */,
 				BF83EE1B2008B0F3000EBA5C /* AppDelegate.m in Sources */,
+				BF3065E6200C139A00F3058E /* LocationService.m in Sources */,
+				BF3065EC200CB4A800F3058E /* RunMissionInProgressTabBarController.m in Sources */,
+				BF3065D6200C023900F3058E /* Location+CoreDataClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,14 +589,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BF83EE1F2008B0F3000EBA5C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF83EE202008B0F3000EBA5C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BF83EE272008B0F3000EBA5C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +706,7 @@
 		};
 		BF83EE462008B0F3000EBA5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D7A8DE3924531802539768 /* Pods-RunQuestAI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -440,12 +715,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AI.RunQuestAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BF83EE472008B0F3000EBA5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72ED9C532FF017944AB14B42 /* Pods-RunQuestAI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,12 +730,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AI.RunQuestAI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		BF83EE492008B0F3000EBA5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE88160992FC2299B437EEDB /* Pods-RunQuestAITests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +752,7 @@
 		};
 		BF83EE4A2008B0F3000EBA5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E90E808D27D223DCDA5D0A /* Pods-RunQuestAITests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +768,7 @@
 		};
 		BF83EE4C2008B0F3000EBA5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B880ABE2B79798E47AE25DB4 /* Pods-RunQuestAIUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M5268ZTPTL;
@@ -504,6 +783,7 @@
 		};
 		BF83EE4D2008B0F3000EBA5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06C476CA1D0A4169831ED01 /* Pods-RunQuestAIUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M5268ZTPTL;
