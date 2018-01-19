@@ -2,18 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Run+CoreDataProperties.h">
-   </FileRef>
-   <FileRef
-      location = "group:Run+CoreDataClass.h">
-   </FileRef>
-   <FileRef
-      location = "group:Run+CoreDataClass.m">
-   </FileRef>
-   <FileRef
-      location = "group:Run+CoreDataProperties.m">
-   </FileRef>
-   <FileRef
       location = "group:RunQuestAI.xcodeproj">
    </FileRef>
    <FileRef

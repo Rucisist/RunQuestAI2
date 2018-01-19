@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'CEE55D833148E2A0F297DC0DA649E224'
+               BlueprintIdentifier = '5531E469A3D8C113454FACBF204F8AA6'
                BlueprintName = 'Pods-RunQuestAI'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-RunQuestAI.a'>

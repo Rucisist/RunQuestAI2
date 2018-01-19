@@ -6,6 +6,7 @@ target 'RunQuestAI' do
   # use_frameworks!
   pod 'GoogleMaps'
   pod 'GooglePlaces'
+  pod 'OCMock'
 
   # Pods for RunQuestAI
 
